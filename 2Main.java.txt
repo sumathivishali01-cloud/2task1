@@ -1,0 +1,22 @@
+// Main.java
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Creating Rectangle objects
+        Rectangle rectangle1 = new Rectangle(10, 5);
+        Rectangle rectangle2 = new Rectangle(8, 4);
+        Rectangle rectangle3 = new Rectangle(15, 7);
+
+        // Displaying details
+        System.out.println("Rectangle 1");
+        rectangle1.displayDetails();
+
+        System.out.println("\nRectangle 2");
+        rectangle2.displayDetails();
+
+        System.out.println("\nRectangle 3");
+        rectangle3.displayDetails();
+    }
+}
